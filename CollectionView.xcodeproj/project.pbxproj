@@ -13,6 +13,7 @@
 		899DDA9629D8AEF700966B58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899DDA9429D8AEF700966B58 /* Main.storyboard */; };
 		899DDA9829D8AEF900966B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899DDA9729D8AEF900966B58 /* Assets.xcassets */; };
 		899DDA9B29D8AEF900966B58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899DDA9929D8AEF900966B58 /* LaunchScreen.storyboard */; };
+		899DDAA329D8B1B800966B58 /* PlantCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DDAA229D8B1B800966B58 /* PlantCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		899DDA9729D8AEF900966B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		899DDA9A29D8AEF900966B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		899DDA9C29D8AEF900966B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899DDAA229D8B1B800966B58 /* PlantCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				899DDA9729D8AEF900966B58 /* Assets.xcassets */,
 				899DDA9929D8AEF900966B58 /* LaunchScreen.storyboard */,
 				899DDA9C29D8AEF900966B58 /* Info.plist */,
+				899DDAA229D8B1B800966B58 /* PlantCollectionViewCell.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				899DDA9329D8AEF700966B58 /* ViewController.swift in Sources */,
 				899DDA8F29D8AEF700966B58 /* AppDelegate.swift in Sources */,
+				899DDAA329D8B1B800966B58 /* PlantCollectionViewCell.swift in Sources */,
 				899DDA9129D8AEF700966B58 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
