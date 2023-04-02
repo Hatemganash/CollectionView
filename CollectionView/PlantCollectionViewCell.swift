@@ -1,9 +1,3 @@
-//
-//  PlantCollectionViewCell.swift
-//  CollectionView
-//
-//  Created by Hatem on 01/04/2023.
-//
 
 import UIKit
 

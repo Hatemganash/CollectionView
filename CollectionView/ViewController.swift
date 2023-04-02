@@ -1,9 +1,4 @@
-//
-//  ViewController.swift
-//  CollectionView
-//
-//  Created by Hatem on 01/04/2023.
-//
+
 
 import UIKit
 
@@ -50,7 +45,6 @@ class ViewController: UIViewController , UICollectionViewDelegate , UICollection
         let cell = collectiobview.dequeueReusableCell(withReuseIdentifier: "plantCell", for: indexPath) as! PlantCollectionViewCell
         let plant = arrPlants[indexPath.row]
         cell.setupCell(photo: plant.photo, price: plant.price)
-        cell.backgroundColor = UIColor.red
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
